@@ -19,6 +19,8 @@ class Library {
 fun whenFn(arg: Any): String {
     return when (arg) {
         "Hello" -> "world"
+        "Howdy" -> "Say what?"
+        "Bonjour" -> "Say what?"
         is String -> "I don't understand"
         0 -> "zero"
         1 -> "one"
